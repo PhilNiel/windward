@@ -1,0 +1,31 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build output
+target/
+build/
+.gradle/
+
+# Secrets / environment
+.env
+.env.*
+*.tfvars
+!*.tfvars.example
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Redpanda / Kafka local data
+kafka-data/
+redpanda-data/
+
+# Docker
+*.env.docker
