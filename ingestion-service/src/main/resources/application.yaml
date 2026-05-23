@@ -1,3 +1,13 @@
 spring:
   application:
     name: ingestion-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/portfolio_db
+    username: admin321
+    password: admin123
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
